@@ -5,7 +5,6 @@ object Sol {
   }
 
   def main(args: Array[String]): Unit = {
-    println(evaporator(`  10, 10, 10))
+    println(evaporator(10, 10, 10))
   }
-
 }

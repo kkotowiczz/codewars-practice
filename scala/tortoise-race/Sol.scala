@@ -5,7 +5,6 @@ object Sol {
     else Array(difference.toInt, (difference * 60 % 60).toInt, (difference * 3600 % 60).toInt)
   }
 
-
   def main(args: Array[String]): Unit = {
     val race1 = race(30, 50, 5436)
     race1.foreach(println)
